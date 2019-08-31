@@ -74,6 +74,11 @@
   box-shadow: 0 0 10px #000;
 }
 
+.w-100{
+  width: 100%;
+  height: 50px;
+}
+
 .meditate {
   background-image: url('./undraw_mindfulness_scgo.png');
   background-size: cover;

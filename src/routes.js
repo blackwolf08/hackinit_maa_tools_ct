@@ -9,6 +9,7 @@ import UserProfile from "views/UserProfile/UserProfile.js";
 import TableList from "views/TableList/TableList.js";
 import Maps from "views/Maps/Maps.js";
 import MusicUI from './components/MusicUI'
+import YoutubeCanvas from './components/YouTube/YoutubeCanvas'
 
 const dashboardRoutes = [
   {
@@ -49,6 +50,14 @@ const dashboardRoutes = [
     rtlName: "خرائط",
     icon: MusicNoteIcon,
     component: MusicUI,
+    layout: "/admin"
+  },
+  {
+    path: "/videos",
+    name: "Videos",
+    rtlName: "خرائط",
+    icon: MusicNoteIcon,
+    component: YoutubeCanvas,
     layout: "/admin"
   }
 ];
