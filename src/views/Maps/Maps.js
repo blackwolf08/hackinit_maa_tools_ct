@@ -1,4 +1,6 @@
 import React from "react";
+import Chat from '../../components/Chat/Chat'
+
 import {
   withScriptjs,
   withGoogleMap,
@@ -83,11 +85,14 @@ const CustomSkinMap = withScriptjs(
 
 export default function Maps() {
   return (
+    <>
     <CustomSkinMap
       googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8lOZRMKJnMQL52oSnjxEfNuJYmYn6U7g"
       loadingElement={<div style={{ height: `100%` }} />}
       containerElement={<div style={{ height: `100vh` }} />}
       mapElement={<div style={{ height: `100%` }} />}
     />
+    <Chat />
+    </>
   );
 }

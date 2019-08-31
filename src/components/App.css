@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+.App {
+  width: 100vw;
+  height: 100vh !important;
+  background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.overlay {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url('./overlay.jpeg');
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.form-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.player-cover{
+  position: absolute;
+  border-radius: 0% !important;
+  width: 100% !important;
+  height: 100vh !important;
+  margin-left: 0 !important;
+  top: 0;
+  left: 0;
+  background-size: cover !important;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.player-control {
+  padding: 20px 20px 20px 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.title {
+  font-size: 1.4rem !important;
+  font-weight: 700 !important;
+}
+
+.artist {
+  font-size: 1.1rem !important;
+}
+
+.button-overlay{
+  padding: 10px;
+  width: 100px;
+  border: none;
+  filter: opacity(1) !important;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #eee !important;
+  color: black;
+  box-shadow: 0 0 10px #000;
+}
+
+.meditate {
+  background-image: url('./undraw_mindfulness_scgo.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  filter: opacity(0.9);
+  margin-bottom: 30px;
+  border-radius: 100%;
+  box-shadow: 0 0 10px #eee;
+  animation: br 2s linear infinite forwards;
+}
+
+@keyframes br {
+  0%{
+    box-shadow: 0 0 10px #eee;
+  }
+  50%{
+    box-shadow: 0 0 20px #000;
+  }
+  100%{
+    box-shadow: 0 0 10px #eee;
+  }
+}

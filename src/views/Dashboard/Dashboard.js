@@ -13,6 +13,7 @@ import Update from "@material-ui/icons/Update";
 import ArrowUpward from "@material-ui/icons/ArrowUpward";
 import AccessTime from "@material-ui/icons/AccessTime";
 import Accessibility from "@material-ui/icons/Accessibility";
+import Chat from '../../components/Chat/Chat'
 
 // core components
 import GridItem from "components/Grid/GridItem.js";
@@ -243,6 +244,7 @@ export default function Dashboard() {
           </Card>
         </GridItem>
       </GridContainer>
+      <Chat />
     </div>
   );
 }

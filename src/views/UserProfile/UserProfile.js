@@ -12,6 +12,7 @@ import CardHeader from "components/Card/CardHeader.js";
 import CardAvatar from "components/Card/CardAvatar.js";
 import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
+import Chat from '../../components/Chat/Chat'
 
 import avatar from "assets/img/faces/marc.jpg";
 
@@ -172,6 +173,7 @@ export default function UserProfile() {
             </CardBody>
           </Card>
         </GridItem>
+        <Chat />
       </GridContainer>
     </div>
   );

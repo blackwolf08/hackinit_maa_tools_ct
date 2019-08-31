@@ -10,6 +10,7 @@ import Card from "components/Card/Card.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardBody from "components/Card/CardBody.js";
 import axios from 'axios'
+import Chat from '../../components/Chat/Chat'
 
 
 const styles = {
@@ -112,6 +113,7 @@ export default function TableList() {
           </CardBody>
         </Card>
       </GridItem>
+      <Chat />
     </GridContainer>
   );
 }
