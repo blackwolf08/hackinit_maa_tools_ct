@@ -28,8 +28,8 @@ const dashboardRoutes = [
     layout: "/admin"
   },
   {
-    path: "/table",
-    name: "Table List",
+    path: "/diet_plan",
+    name: "Diet Plan",
     rtlName: "قائمة الجدول",
     icon: "content_paste",
     component: TableList,

@@ -6,17 +6,15 @@ import 'react-chat-widget/lib/styles.css';
 
 class Chat extends Component {
   componentDidMount() {
-    addResponseMessage("Welcome to this awesome chat!");
+    addResponseMessage("How do you feel right now?");
   }
 
   handleNewUserMessage = newMessage => {
-    console.log(`New message incoming! ${newMessage}`);
     axios.post(
       "https://cors-anywhere.herokuapp.com/https://us-central1-hypnos-backend-a41f5.cloudfunctions.net/chatReply",
       {
         msg: newMessage
     }).then(res=>{
-      console.log(res.data)
       addResponseMessage(res.data)
     })
   }
