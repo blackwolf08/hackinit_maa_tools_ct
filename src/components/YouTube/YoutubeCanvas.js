@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Youtube from './Youtube'
+import Chat from '../../components/Chat/Chat'
 
 export default class YoutubeCanvas extends Component {
     render() {
@@ -13,6 +14,7 @@ export default class YoutubeCanvas extends Component {
                 <Youtube id="oWiR6iRkmbY" />
                 <div className="w-100"></div>
                 <Youtube id="8sj-qQ3vJy4" />
+                <Chat />
             </div>
         )
     }

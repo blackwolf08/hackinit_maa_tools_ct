@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Chat from '../components/Chat/Chat'
+
 
 import MusicPlayerUI from './Music/MusicPlayerUI'
 
@@ -9,6 +11,7 @@ function App() {
       <div className="form-wrapper">
         <MusicPlayerUI />
       </div>
+      <Chat />
     </div>
   );
 }

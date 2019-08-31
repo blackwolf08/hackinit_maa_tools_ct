@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import gif from './gif2.gif'
 import ecg from './ecg.gif'
 import bt from './Bluetooth.svg.png'
+import Chat from '../../components/Chat/Chat'
+
 
 export default class Fitness extends Component {
     render() {
@@ -22,6 +24,7 @@ export default class Fitness extends Component {
                     <li>Fall detection and alert.</li>
                     <li>Get your data on cloud.</li>
                 </ul>
+                <Chat />
             </div>
         )
     }

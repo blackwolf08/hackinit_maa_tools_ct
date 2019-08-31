@@ -13,6 +13,8 @@ import YoutubeCanvas from './components/YouTube/YoutubeCanvas'
 import Fitness from './components/Fitness/Fitness'
 import VideocamIcon from '@material-ui/icons/Videocam';
 import WatchIcon from '@material-ui/icons/Watch';
+import Schemes from './components/Schemes/Schemes'
+import AnnouncementIcon from '@material-ui/icons/Announcement';
 
 
 const dashboardRoutes = [
@@ -70,6 +72,14 @@ const dashboardRoutes = [
     rtlName: "خرائط",
     icon: WatchIcon,
     component: Fitness,
+    layout: "/admin"
+  },
+  {
+    path: "/schemes",
+    name: "Govt. Schemes",
+    rtlName: "خرائط",
+    icon: AnnouncementIcon,
+    component: Schemes,
     layout: "/admin"
   }
 ];

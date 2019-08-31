@@ -550,6 +550,10 @@ footer ul li a:hover {
   width: 100%;
 }
 
+.rcw-launcher, .rcw-open-launcher {
+  z-index: 10 !important;
+}
+
 .df {
   display: flex;
   justify-content: center;
