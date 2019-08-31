@@ -1,8 +1,8 @@
 
 import Dashboard from "@material-ui/icons/Dashboard";
 import Person from "@material-ui/icons/Person";
-import LibraryBooks from "@material-ui/icons/LibraryBooks";
 import LocationOn from "@material-ui/icons/LocationOn";
+import MusicNoteIcon from '@material-ui/icons/MusicNote';
 // core components/views for Admin layout
 import DashboardPage from "views/Dashboard/Dashboard.js";
 import UserProfile from "views/UserProfile/UserProfile.js";
@@ -47,7 +47,7 @@ const dashboardRoutes = [
     path: "/music",
     name: "Music",
     rtlName: "خرائط",
-    icon: LocationOn,
+    icon: MusicNoteIcon,
     component: MusicUI,
     layout: "/admin"
   }

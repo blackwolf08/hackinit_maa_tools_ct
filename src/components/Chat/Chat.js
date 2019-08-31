@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Widget, addResponseMessage, addLinkSnippet, addUserMessage } from 'react-chat-widget';
+import axios from 'axios'
 
 import 'react-chat-widget/lib/styles.css';
 
@@ -8,9 +9,16 @@ class Chat extends Component {
     addResponseMessage("Welcome to this awesome chat!");
   }
 
-  handleNewUserMessage = (newMessage) => {
+  handleNewUserMessage = newMessage => {
     console.log(`New message incoming! ${newMessage}`);
-    // Now send the message throught the backend API
+    axios.post(
+      "https://cors-anywhere.herokuapp.com/https://us-central1-hypnos-backend-a41f5.cloudfunctions.net/chatReply",
+      {
+        msg: newMessage
+    }).then(res=>{
+      console.log(res.data)
+      addResponseMessage(res.data)
+    })
   }
 
   render() {
@@ -18,6 +26,7 @@ class Chat extends Component {
       <div className="chat">
         <Widget
           handleNewUserMessage={this.handleNewUserMessage}
+          subtitle="How do you feel?"
           title="Let me help!"
         />
       </div>
