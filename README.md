@@ -1,7 +1,5 @@
-[![HitCount](http://hits.dwyl.io/Hypn-OS/Maternal-Assistance-App.svg)](http://hits.dwyl.io/Hypn-OS/Maternal-Assistance-App)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](/LICENSE) 
-[![](https://img.shields.io/badge/</>%20With%20❤️%20By-Hypnos-red)](https://github.com/Hypn-OS)
-![GitHub stars](https://img.shields.io/github/stars/Hypn-OS/Maternal-Assistance-App?style=social)
+[![](https://img.shields.io/badge/</>%20With%20❤️%20By-Hypertext-Assassins-red)](https://github.com/blackwolf08/hackinit_maa_tools_ct)
  
                                         __  __                    
                                        |  \/  |   /\        /\    
@@ -11,12 +9,13 @@
                                        |_|  |_/_/    \_\/_/    \_\
 
 
-This is the official code repository for Hypnos . This type of application was developed during [HaXplore](https://codefest.tech/haxplore), the on-campus event conducted by Codefest, the annual departmental fest of Computer Science department, IIT BHU Varanasi.
+This is the official code repository for Hypertext Assassins . This type of application was developed during [HackInit](https://hackinit.github.io), the on-campus event conducted by BPIT.
 
 # Team Members :triangular_flag_on_post:
-1. [Ayush Bhardwaj](https://github.com/hastagAB)
+1. [Sunny Dhama](https://github.com/blackwolf08)
 2. [Sahil Jha](https://github.com/sjha2048) 
-3. [Kaushlendra Pratap](https://github.com/Kaushl2208)
+3. [Siddharth Batra](https://github.com/darksun27)
+4. [Pawan Kumar Meena](https://github.com/Prodyte)
 
 # MAA(Maternal Assistance App) :baby_symbol:
 India is highly populated and it needs effective healthcare accessible to all. Maternal Assistance App(MAA) provides Indian mothers to get regular & instant assistance during the pregnancy and the parenting phase. It is a personalized healthcare app especially for maternal assistance which can provide instant but effective help whenever and wherever needed. In this fast-growing technical world, a mobile device is something that is so close to everyone and having a virtual assistant during pregnancy and parenting phase is like a boon for Mankind. 
@@ -32,7 +31,7 @@ India is highly populated and it needs effective healthcare accessible to all. M
 - There are various government healthcare institutes and schemes available but is not properly promoted and available among the needed citizens. 
 
 # Solution Proposed :heavy_check_mark:
-MAA (Maternal Assistance App) developed by Hypnos is specially designed for Indian Parents to get regular & instant assistance during the pregnancy and the parenting phase. 
+MAA (Maternal Assistance App) developed by Hypertext Assassins is specially designed for Indian Parents to get regular & instant assistance during the pregnancy and the parenting phase. 
 ### The app is having the following features : 
 - The app will notify about the daily development of the child. According to the expected delivery date, it will generate the whole timeline. 
 - A list of hospitals available near the mother can be looked upon. 
@@ -52,9 +51,9 @@ MAA (Maternal Assistance App) developed by Hypnos is specially designed for Indi
 
 # Technical Details 🔧
 ### Tech Stack : 
+- ReactJS
 - Flutter (For app development)
-- Dart, Objective-C, Java
-- Redux
+- Dart
 - Firebase (For Backend Services)
 - Google Map API
 
@@ -62,23 +61,15 @@ Flutter will be used for UI/UX and making a cross-platform application which wil
 Redux will be used for state management will make sure that the app doesn’t crash because we aim to provide a seamless experience to the user, for making the application highly scalable. We will be using several APIs for functions like locating the nearest hospital.
 
 # To Test 👨‍💻
-- Install Flutter --> [Steps for Installation](https://flutter.dev/docs/get-started/install)
-- run `flutter run`
-
-# Screens :computer:
-![Login/Signup](files/Login.gif)
-![Profile](files/Profile.gif)
-![Dashboard](files/Dashboard.gif)
+- Install React --> [Steps for Installation](https://flutter.dev/docs/get-started/install)
+- run `npm install`
+- `npm start`
 
 
 
 # Note :clipboard:
-For running and building the app properly you have to use the geo-location API key in 
-
-```
-android/app/src/main/AndroidManifest.xml
-```
+For running and building the app properly you have to use the geo-location API key.
 
 
 # 📜 License
-This Project is licensed under the [Apache-2.0](/LICENSE) © [HypnOS](https://github.com/Hypn-OS).
+This Project is licensed under the [Apache-2.0](/LICENSE) © [blackwolf08](https://github.com/blackwolf08).
