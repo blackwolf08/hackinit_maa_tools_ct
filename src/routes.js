@@ -10,6 +10,10 @@ import TableList from "views/TableList/TableList.js";
 import Maps from "views/Maps/Maps.js";
 import MusicUI from './components/MusicUI'
 import YoutubeCanvas from './components/YouTube/YoutubeCanvas'
+import Fitness from './components/Fitness/Fitness'
+import VideocamIcon from '@material-ui/icons/Videocam';
+import WatchIcon from '@material-ui/icons/Watch';
+
 
 const dashboardRoutes = [
   {
@@ -56,8 +60,16 @@ const dashboardRoutes = [
     path: "/videos",
     name: "Videos",
     rtlName: "خرائط",
-    icon: MusicNoteIcon,
+    icon: VideocamIcon,
     component: YoutubeCanvas,
+    layout: "/admin"
+  },
+  {
+    path: "/fitness_watch",
+    name: "Fitness Device",
+    rtlName: "خرائط",
+    icon: WatchIcon,
+    component: Fitness,
     layout: "/admin"
   }
 ];
