@@ -10,13 +10,28 @@ class Chat extends Component {
   }
 
   handleNewUserMessage = newMessage => {
+    if(newMessage == "done"){
+      addResponseMessage("Thank you! have a good day!")
+    }
+    else{
     axios.post(
       "https://cors-anywhere.herokuapp.com/https://us-central1-hypnos-backend-a41f5.cloudfunctions.net/chatReply",
       {
         msg: newMessage
     }).then(res=>{
-      addResponseMessage(res.data)
+      if(res.data == "batri"){
+        addResponseMessage("Please wait while I connect you to a Doctor...")
+        setTimeout(()=>{
+          addResponseMessage("Your appointment is booked!")
+          addResponseMessage("Date: 01-09-2019, Venue: Fortis, Noida with Dr. Singh at 3:00 pm, please be on time!")
+          addResponseMessage("If confirm? type done")
+        }, 2000)
+      }
+      else {
+        addResponseMessage(res.data);
+      }
     })
+  }
   }
 
   render() {
