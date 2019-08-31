@@ -61,7 +61,6 @@ Flutter will be used for UI/UX and making a cross-platform application which wil
 Redux will be used for state management will make sure that the app doesn’t crash because we aim to provide a seamless experience to the user, for making the application highly scalable. We will be using several APIs for functions like locating the nearest hospital.
 
 # To Test 👨‍💻
-- Install React --> [Steps for Installation](https://flutter.dev/docs/get-started/install)
 - run `npm install`
 - `npm start`
 
