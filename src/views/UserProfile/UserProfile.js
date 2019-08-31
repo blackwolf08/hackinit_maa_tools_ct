@@ -148,7 +148,7 @@ export default function UserProfile() {
               </a>
             </CardAvatar>
             <CardBody profile>
-              <h4 className={classes.cardTitle}>Simmi Tomar</h4>
+              <h4 className={classes.cardTitle}>Batri S</h4>
 
             </CardBody>
           </Card>
