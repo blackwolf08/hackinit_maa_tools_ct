@@ -1,0 +1,28 @@
+{
+    "data" : [
+        {
+            "scheme" : "PM Jan Dhan Yojana",
+            "desc" : "The aim of this program is to provide financial support to these women who can, in turn, nourish themselves and take proper medical aid during their pregnancy."        
+        },
+        {
+            "scheme" : "Pradhan Mantri Surakshit Matritva Abhiyan",
+            "desc" : "The Pradhan Mantri Surakshit Matritva Abhiyan was launched by the Ministry of Health & Family Welfare (MoHFW), Government of India. The program’s aim is to provide timely and quality antenatal care, free of cost, universally to all pregnant women on the 9th of every month. This yojana collaborates with private-sector doctors to volunteer for free and visit these places where there aren’t proper medical facilities. They conduct these health checkups at government hospitals."
+        },
+        {
+            "scheme" : "Rajiv Gandhi National Crèche Scheme for Children of Working Mothers",
+            "desc" : " The scheme offers day-care facilities, improved nutrition, immunization facilities, sleeping facilities, and has set the stage for higher physical, mental and social growth of kids of working women."
+        },
+        {
+            "scheme" : "Pulse Polio",
+            "desc" : "It is one of the most path-breaking schemes that the Indian Government has come up with. It is an immunization campaign began by the government of India to completely eradicate poliomyelitis (polio) in India by vaccinating all children under the age of five years against the poliovirus. The government sets up camps regularly to vaccinate children and government officials also visit residences moving around the door to door administering the dose."
+        },
+        {
+            "scheme" : "Rashtriya Bal Swasthya Karyakram",
+            "desc" : "It was launched to provide child health care screening at states where there is a dearth of medical facilities. Mobile health teams are organized to visit these places and conduct thorough examinations. They also conduct health screening for children from the age of 0 to 6 at Anganwadi Centres twice a year. It covers 30 common health conditions in children."
+        },
+        {
+            "scheme" : " National Deworming Day",
+            "desc" : "The Ministry of Health and Welfare has dedicated a day to combat soil-transmitted infections in children. During this campaign, school teachers and workers administered a single dose of Albendazole to children."
+        }
+    ]
+}
